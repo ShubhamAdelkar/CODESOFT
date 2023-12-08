@@ -2,7 +2,9 @@
 
 Welcome to the iOS Calculator project! This web-based calculator is built using HTML, CSS, and JavaScript to replicate the appearance and functionality of the iOS calculator app found on Apple devices.
 
-## UI 
+( live demo - https://ioscalculator-js.netlify.app/ )
+
+## UI
 
 ![iOS Calculator](UI.png)
 
@@ -18,3 +20,4 @@ To use this web-based calculator on your local machine, follow these steps:
 1. Clone the repository to your local system.
    ```bash
    git clone https://github.com/yourusername/ios-calculator-js.git
+   ```
