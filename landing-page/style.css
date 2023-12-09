@@ -93,14 +93,15 @@ html {
 }
 
 .right-section-img {
-    padding-top: 8rem;
-    padding-bottom: 4rem;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
     width: 500px;
 }
 
 .subtitle {
-    width: 194px;
-    margin-bottom: .8rem;
+    width: 210px;
+    font-size: 1.1rem;
+    margin-bottom: .5rem;
     padding: 7px 11px;
     color: #444AFE;
     background-color: #F2F2FF;
@@ -127,6 +128,8 @@ html {
 
 .left-button {
     display: flex;
+    justify-content: center;
+    align-items: center;
     color: white;
     font-weight: 500;
     font-size: 1rem;
@@ -149,4 +152,19 @@ html {
     border: 1px solid black;
     padding: 1rem 1.5rem;
     border-radius: 50px;
+}
+
+.scroll-down>a {
+    display: flex;
+    color: orangered;
+    text-decoration: none;
+    position: absolute;
+    padding-bottom: 2.5rem;
+    bottom: 0;
+    font-size: .9rem;
+    align-items: center;
+}
+
+a>i {
+    font-size: 1.3rem;
 }
