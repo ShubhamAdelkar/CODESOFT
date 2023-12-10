@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&display=swap');
+
 * {
     box-sizing: border-box;
     padding: 0;
@@ -7,10 +9,14 @@
 }
 
 
+
 html {
     scroll-behavior: smooth;
 }
 
+body {
+    font-family: 'Inter', sans-serif;
+}
 body {
     font-family: 'Inter', sans-serif;
 }
@@ -32,6 +38,7 @@ body {
 
 .nav {
     position: absolute;
+    position: absolute;
     top: 0;
     left: 0;
     right: 0;
@@ -39,6 +46,7 @@ body {
     flex-direction: row;
     align-items: center;
     background: transparent;
+    margin: 1.5rem 0rem 0rem 4rem;
     margin: 1.5rem 0rem 0rem 4rem;
     justify-content: space-between;
 }
@@ -55,13 +63,17 @@ body {
 .nav-link {
     padding: 2rem;
     color: lightgray;
+    color: lightgray;
     align-self: center;
+    justify-content: center;
     justify-content: center;
     text-decoration: none;
 }
 
 .get-started {
     display: flex;
+    color: white;
+    font-weight: 500;
     color: white;
     font-weight: 500;
     align-items: center;
@@ -77,6 +89,7 @@ body {
 .home {
     display: flex;
     height: 750px;
+    height: 750px;
 }
 
 .right-section {
@@ -85,6 +98,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #000;
     background-color: #000;
 }
 
@@ -97,9 +111,12 @@ body {
     display: flex;
     flex-direction: column;
     padding: 10rem 4.5rem;
+    padding: 10rem 4.5rem;
 }
 
 .right-section-img {
+    margin-top: 8rem;
+    margin-bottom: 6rem;
     margin-top: 8rem;
     margin-bottom: 6rem;
     width: 500px;
@@ -107,7 +124,9 @@ body {
 
 .subtitle {
     width: 213px;
+    width: 213px;
     font-size: 1.1rem;
+    margin-bottom: .8rem;
     margin-bottom: .8rem;
     padding: 7px 11px;
     color: #444AFE;
@@ -116,6 +135,7 @@ body {
 
 .title {
     font-size: 3.8rem;
+    font-size: 3.8rem;
     margin-bottom: 1.5rem;
     width: 430px;
 }
@@ -123,6 +143,7 @@ body {
 .title-description {
     color: grey;
     font-weight: 500;
+    font-size: 1.1rem;
     font-size: 1.1rem;
     margin-bottom: 2rem;
 }
@@ -154,6 +175,7 @@ body {
 .right-button {
     font-weight: 500;
     font-size: 1rem;
+    color: #000;
     color: #000;
     cursor: pointer;
     border: 1px solid black;
