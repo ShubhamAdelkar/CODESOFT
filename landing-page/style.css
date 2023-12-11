@@ -9,7 +9,6 @@
 }
 
 
-
 html {
     scroll-behavior: smooth;
 }
@@ -98,7 +97,9 @@ body {
     justify-content: center;
     align-items: center;
     background-color: #000;
-    background-color: #000;
+    background-image: url('https://cdn.hashnode.com/res/hashnode/image/upload/v1687946492198/8a751c1c-e91f-4020-ac3f-ec5e363ebaa4.png?auto=compress');
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .left-section {
@@ -119,15 +120,16 @@ body {
     margin-top: 8rem;
     margin-bottom: 6rem;
     width: 500px;
+    border-radius: 8px;
 }
 
 .subtitle {
-    width: 213px;
     width: 213px;
     font-size: 1.1rem;
     margin-bottom: .8rem;
     margin-bottom: .8rem;
     padding: 7px 11px;
+    border-radius: 6px;
     color: #444AFE;
     background-color: #F2F2FF;
 }
@@ -165,6 +167,12 @@ body {
     border-radius: 50px;
     padding: 1rem 1.5rem;
     background-color: #5056FD;
+    transition: .3s;
+
+
+    &:hover {
+        scale: 1.02;
+    }
 }
 
 .left-arrow {
@@ -180,6 +188,12 @@ body {
     border: 1px solid black;
     padding: 1rem 1.5rem;
     border-radius: 50px;
+    transition: .3s;
+
+
+    &:hover {
+        scale: 1.02;
+    }
 }
 
 .scroll-down>a {
@@ -214,6 +228,9 @@ body {
     justify-content: center;
     flex-direction: column;
     background-color: #000;
+    background-image: url('https://cdn.hashnode.com/res/hashnode/image/upload/v1687946492198/8a751c1c-e91f-4020-ac3f-ec5e363ebaa4.png?auto=compress');
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .features>h1 {
@@ -272,6 +289,9 @@ body {
     display: flex;
     flex-direction: row;
     align-items: center;
+    background-image: url('https://cdn.hashnode.com/res/hashnode/image/upload/v1687946492198/8a751c1c-e91f-4020-ac3f-ec5e363ebaa4.png?auto=compress');
+    background-size: cover;
+    background-repeat: round;
     justify-content: space-between;
 }
 
@@ -338,6 +358,9 @@ body {
 
 .f-container-three {
     display: flex;
+    background-image: url('https://cdn.hashnode.com/res/hashnode/image/upload/v1687946492198/8a751c1c-e91f-4020-ac3f-ec5e363ebaa4.png?auto=compress');
+    background-size: cover;
+    background-repeat: no-repeat;
     justify-content: center;
     flex-direction: column;
 }
@@ -527,7 +550,7 @@ body {
     flex: 1;
     flex-direction: column;
     color: #4349FD;
-    background-color: #EEF4FF;
+    background-color: #e7efff;
 }
 
 .card-two>div>h1 {
@@ -581,9 +604,13 @@ body {
 .footer {
     display: flex;
     gap: 2rem;
-    height: 500px;
-    padding: 6rem 4rem 0rem 4rem;
+    height: 550px;
+    background-image: url('https://cdn.hashnode.com/res/hashnode/image/upload/v1687946492198/8a751c1c-e91f-4020-ac3f-ec5e363ebaa4.png?auto=compress');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 6rem 4rem 4rem 4rem;
     align-items: center;
+    justify-content: space-between;
     flex-direction: column;
     background-color: black;
 }
@@ -613,7 +640,12 @@ body {
     cursor: pointer;
     border-radius: 50px;
     padding: 1rem 1.5rem;
+    transition: .3s;
     background-color: #5056FD;
+
+    &:hover {
+        scale: 1.02;
+    }
 }
 
 .footer>a {
@@ -644,14 +676,31 @@ body {
 
 .footer-nav {
     display: flex;
-    border-top: 1px solid grey;
+    border-top: 1px solid #252525;
     justify-content: space-between;
     align-items: center;
     background: #000;
     align-items: center;
     padding: 2rem 3rem;
+    background-image: url('https://cdn.hashnode.com/res/hashnode/image/upload/v1687946492198/8a751c1c-e91f-4020-ac3f-ec5e363ebaa4.png?auto=compress');
+    background-size: cover;
+    background-repeat: round;
 }
 
 .footer-logo {
+    color: #fff;
+}
+
+.footer-cloud {
+    padding: 4px;
+    border-radius: 20px;
+    margin-right: .5rem;
+    color: white;
+    background: #252525;
+}
+
+.credits {
+    font-weight: 200;
+    font-size: .8rem;
     color: #fff;
 }
